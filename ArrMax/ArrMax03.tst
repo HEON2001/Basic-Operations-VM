@@ -31,7 +31,7 @@ set argument[2] 300,  // argument 2
 set RAM[2048] -3,  // Set Arr[0]
 set RAM[2049] -10,  // Set Arr[1]
 set RAM[2050] -12,  // Set Arr[2]
-set RAM[2051] 0;  // Set Arr[3]
+set RAM[2051] -2;  // Set Arr[3]
 
 
 repeat 200 {        // Change this number to cover the number of instructions in the VM test file
