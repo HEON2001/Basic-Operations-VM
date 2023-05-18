@@ -3,3 +3,40 @@
 
 // Put your code here.
 
+function ArrMax.arrMax 2
+
+push argument 0
+pop pointer that
+push constant 0
+pop local 0 
+push argument 1
+pop local 1
+
+label C1
+push local 1
+push constant 1
+lt
+if-goto END
+push local 0
+push that 0
+lt
+if-goto R
+label C2
+push local 1
+push constant 1
+sub
+pop local 1
+push that 0
+push constant 1
+pop pointer that
+goto C1
+
+label R
+push that 0
+pop local 0
+goto C2
+
+label END
+push local 1
+return
+
