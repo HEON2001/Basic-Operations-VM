@@ -4,6 +4,22 @@
 // Put your code here.
 
 
+push static 0
+push constant 0
+lt
+if-goto TRUE
+goto FALSE
+
+label TRUE
+push constant 0
+push static 0
+sub
+pop static 1
+goto END
+
+label FALSE
+push static 0
+pop static 1
 
 label END
 goto END
